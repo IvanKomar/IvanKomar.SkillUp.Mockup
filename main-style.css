@@ -9,7 +9,16 @@ body {
 	margin: 0 auto;
 }
 .row:after {
-	contet: "";
+	content: "";
 	display: block;
 	clear: both;
+}
+.row [class*="col-md-"] {
+	float: left;
+}
+.col-md-3 {
+	width: 25%;
+}
+.col-md-6 {
+	width: 50%;
 }
