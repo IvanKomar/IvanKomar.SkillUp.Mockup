@@ -23,6 +23,12 @@ body {
 .col-md-6 {
 	width: 50%;
 }
+.col-md-2 {
+	width: 20%;
+}
+.col-md-1 {
+	width: 5%;
+}
 .header {
 	background-color: rgba(255,255,255,0.75);
 	padding: 25px 0;
@@ -55,3 +61,81 @@ body {
 .submenu {
 	display: none;
 }
+form {
+	position: relative;
+	margin-left: 30px;
+	height: 50px;
+	padding: 5px 0;
+	width: 200px;
+}
+form input{
+	float: left;
+	display: block;
+	border: 1px solid rgb( 44, 113, 184 );
+  width: 198px;
+  height: 38px;
+  background-color: transparent;
+  padding-left: 20px;
+  color: #2c71b8;
+	font-size: 21px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: middle;
+}
+form .btn {
+	background-color: #2c71b8;
+	width: 30px;
+	height: 29px;
+	float: left;
+	display: block;
+	right: 7px;
+	border: none;
+	top: 19%;
+}
+form .btn-header {
+	position: absolute;
+	background-image: url('images/icon_4.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+::placeholder {
+	color: #2c71b8;
+	font-size: 21px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: middle;
+}
+.cart {
+	position: absolute;
+	background-color: rgb( 255, 255, 255 );
+	width: 40px;
+	height: 40px;
+  background-image: url('images/icon_1.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  right: 30px;
+}
+.cart .cart-number {
+	display: block;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	border-radius: 50%;
+	background-color: #2c71b8;
+	height: 20px;
+	width: 20px;
+}
+.cart .number {
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "Roboto";
+}
+.cart-box:hover {
+	background-color: #2c71b8;
+	background-image: url('images/icon_2.png');
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
