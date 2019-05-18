@@ -156,7 +156,6 @@ form .btn-header {
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	transition: all 0.5s;
-	transform: scale(1.1);
 }
 .cart-box {
 	display: block;
