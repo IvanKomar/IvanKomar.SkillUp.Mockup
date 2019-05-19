@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Project-web</title>
-	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="main-style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -66,6 +66,7 @@
 						</nav>
 					</div>
 					<div class="col-md-3">
+						<div class="row">
 						<div class="col-md-2">
 							<form>
 								<input type="search" placeholder="search">
@@ -80,13 +81,14 @@
 									</span>
 								</div>
 							</a>				
+						</div>
 						</div>	
 					</div>
 			</div>
 		</div>
 	</header>
 	<main class="main">
-	 <div class="row">
+	 <div class="row container">
 		<div class="container-slider">
 			<div class="slider">
 				<div class="slide slide1"></div>
@@ -95,37 +97,69 @@
 				<div class="slide slide4"></div>
 			</div>
 		</div>
-		<div class="container-fliter">
-			<div class="checkbox-filter"> 
-				<h3>Device type</h3>
-				<ul>
-					<li>Laptop</li>
-					<li>Tablet</li>
-				</ul>
-				<h3>Color</h3>
-				<ul>
-					<li>Black</li>
-					<li>Red</li>
-					<li>Green</li>
-					<li>Blue</li>
-					<li>Orange</li>
-				</ul>
-				<h3>RAM</h3>
-				<ul>
-					<li>1GB</li>
-					<li>2GB</li>
-					<li>4GB</li>
-					<li>6GB</li>
-					<li>8GB</li>
-				</ul>
-				<a href="#">Show more options ...</a>
-				<button class="btn">submit</button>
-			</div>	
-		</div>
-		<div class="main-container-items">
-
-		</div>
-	 </div>
+		<div class="container row">
+		
+			<div class="col-md-3 container-fliter">
+				<div class="checkbox-filter"> 
+					<h3>Device type</h3>
+					<ul>
+						<li>Laptop</li>
+						<li>Tablet</li>
+					</ul>
+					<h3>Color</h3>
+					<ul>
+						<li>Black</li>
+						<li>Red</li>
+						<li>Green</li>
+						<li>Blue</li>
+						<li>Orange</li>
+					</ul>
+					<h3>RAM</h3>
+					<ul>
+						<li>1GB</li>
+						<li>2GB</li>
+						<li>4GB</li>
+						<li>6GB</li>
+						<li>8GB</li>
+					</ul>
+					<a href="#">Show more options ...</a>
+					<p>
+						<button class="btn">submit</button>
+					</p>
+				</div>	
+			</div>
+			<div class="main-container-items">
+				<div class="row">
+					<div class="breadcrumbs">
+						<a href="#">Home page </a>
+						<i>&gt</i>
+						<a href="#">Products </a>
+						<i>&gt</i>
+						<a href="" class="current">Laptops and Tablets</a>
+					</div>
+				</div>
+					<div class="main-items-info">
+						<div class="row">
+						<div class="main-items-info-part1">
+						<h1>Laptops and Tablets</h1>
+						</div>
+						<div class="main-items-info-part2">
+							<form class="sort-list">
+								<select class="choise">
+								 <option value="sort by price">sort by price</option>
+								 <option value="sort by name">sort by name</option>
+								 <option value="sort by date">sort by date</option>
+								 <option value="sort by popularity">sort by popularity</option>
+								</select>
+							</form>
+						</div>
+						</div>
+				  </div>
+				</div>
+	
+			</div>
+	 		
+	 	</div>
 	</main>
 	<footer class="footer">
 		<div class="container">
