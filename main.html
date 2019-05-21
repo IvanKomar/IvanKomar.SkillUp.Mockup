@@ -1,173 +1,312 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Project-web</title>
-	<link rel="stylesheet" href="reset.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="main-style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<header class="header">
-		<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="logo">
-							<a href="">
-								<img src="images/icon_3.png" alt="logo">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<nav>
-							<ul class="menu row">
-								<li><a href="#">Home</a></li>
-								<li class="submenu-parent">
-									<a href="#">Products <i class="fas fa-angle-down"></i> </a>
-									<ul class="submenu">
-										<li>
-											<a href="#">
-												Lorem ipsum dolor
-											</a>
-										</li>
-										<li>
-											<a href="#">
-											Sit amet
-											</a>
-										</li>
-										<li>
-											<a href="#">
-											Consectetur adipisicing
-											</a>
-										</li>
-										<li>
-											<a href="#">
-											Dolore magna aliqua
-											</a>
-										</li>
-										<li>
-											<a href="#">
-											Ut enim ad minim veniam
-											</a>
-										</li>
-										<li>
-											<a href="#">
-											Quis nostrud
-											</a>
-										</li>
-										
-									</ul>
-								</li>
-								<li><a href="#">Payment</a></li>
-								<li><a href="#">Shipping</a></li>
-							</ul>
-						</nav>
-					</div>
-					<div class="col-md-3">
-						<div class="row">
-						<div class="col-md-2">
-							<form>
-								<input type="search" placeholder="search">
-								<button type="submit" class="btn btn-header"></button>
-							</form>
-						</div>
-						<div class="col-md-1">
-							<a href="#" class="cart-box">
-								<div class="cart">
-									<span class="cart-number number">
-							4
-									</span>
-								</div>
-							</a>				
-						</div>
-						</div>	
-					</div>
+ <html lang="en">
+  <head>
+   <meta charset="UTF-8">
+   <title>Project-web</title>
+   <link rel="stylesheet" href="reset.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="main-style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+   <header class="header">
+    <div class="container">
+     <div class="row">
+      <div class="col-md-3">
+       <div class="logo">
+        <a href="">
+         <img src="images/icon_3.png" alt="logo">
+        </a>
+       </div>
+      </div>
+      <div class="col-md-6">
+       <nav>
+        <ul class="menu row">
+         <li><a href="#">Home</a></li>
+         <li class="submenu-parent"><a href="#">Products <i class="fas fa-angle-down"></i> </a>
+          <ul class="submenu">
+           <li><a href="#">Lorem ipsum dolor</a></li>
+           <li><a href="#">Sit amet</a></li>
+           <li><a href="#">Consectetur adipisicing</a></li>
+           <li><a href="#">Dolore magna aliqua</a></li>
+           <li><a href="#">Ut enim ad minim veniam</a></li>
+           <li><a href="#">Quis nostrud</a></li>
+          </ul>
+         </li>
+         <li><a href="#">Payment</a></li>
+         <li><a href="#">Shipping</a></li>
+        </ul>
+       </nav>
+      </div>
+      <div class="col-md-3">
+       <div class="row">
+        <div class="col-md-10">
+         <form>
+          <input type="search" placeholder="search">
+          <button type="submit" class="btn btn-header"></button>
+         </form>
+        </div>
+        <div class="col-md-2">
+         <a href="#" class="cart-box">
+         <div class="cart">
+          <span class="cart-number number">4</span>
+         </div>
+         </a>				
+        </div>
+       </div>	
+      </div>
+     </div>
+    </div>
+   </header>
+   <main class="main">
+    <div class="container">
+     <div class="row">
+      <div class="container-slider">
+       <div class="slider">
+        <div class="slide slide1"></div>
+        <div class="slide slide2"></div>
+        <div class="slide slide3"></div>
+        <div class="slide slide4"></div>
+       </div>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-3">
+       <div class="checkbox-filter"> 
+        <h3>Device type</h3>
+        <ul>
+         <li>Laptop</li>
+         <li>Tablet</li>
+        </ul>
+        <h3>Color</h3>
+        <ul>
+         <li>Black</li>
+         <li>Red</li>
+         <li>Green</li>
+         <li>Blue</li>
+         <li>Orange</li>
+        </ul>
+        <h3>RAM</h3>
+        <ul>
+         <li>1GB</li>
+         <li>2GB</li>
+         <li>4GB</li>
+         <li>6GB</li>
+         <li>8GB</li>
+        </ul>
+        <a href="#">Show more options ...</a>
+        <p><button class="btn">submit</button></p>
+       </div>	
+      </div>
+     <div class="col-md-9">
+      <div class="row">
+       <div class="сol-md-12">
+	    <p class="breadcrumbs">
+         <a href="#">Home page </a>
+         <i>&gt</i>
+         <a href="#">Products </a>
+         <i>&gt</i>
+         <a class="current-page">Laptops and Tablets</a>
+        </p>
+       </div>
+      </div>
+      <div class="row">
+       <div class="col-md-12">	
+        <div class="row col-md-8 main-info-part1">
+         <h1>Laptops and Tablets</h1>
+        </div>
+        <div class="row col-md-4 main-info-part2">
+         <i class="fas fa-angle-down"></i>
+         <form class="sort-list">
+          <select class="choise">
+           <option value="sort by price">sort by price</option>
+           <option value="sort by name">sort by name</option>
+           <option value="sort by date">sort by date</option>
+           <option value="sort by popularity">sort by popularity</option>
+          </select>
+         </form>
+        </div>
+       </div>
+	  </div>
+	   <div class="row">
+		<div class="col-md-12">
+		 <div class="product-list">
+		  <div class="row">
+		   <div class="product-case first">
+		    <div class="product-case-header">
+			 <img src="images/laptop-icon.png" alt="Desktop">
+			 <button class="btn-image-size"></button>
+			 <button class="btn-like"></button>
+		    </div>
+		    <div class="product-case-main">
+			 <h2>#1 Device Name</h2>
+			 <p class="description">Lorem ipsum dolor sit <br> amet, consectetur<br> adipisic elit.</p>
+			 <p><span class="Spec">Type: </span> Laptop</p>
+			 <p><span class="Spec">Screen-size: </span>7 inches</p>
+			 <p><span class="Spec">Ram: </span> 1gb</p>
+			 <p class="productPrice">$599 <sup class="cents">25</sup></p>
+			 <p class="btn-container"><a class="btn-details" href="#"> More details </a></p>
+			 <p class="btn-container"><button class="btn-add-to-cart" type="submit">Add to cart</button></p>
 			</div>
-		</div>
-	</header>
-	<main class="main">
-	 <div class="row container">
-		<div class="container-slider">
-			<div class="slider">
-				<div class="slide slide1"></div>
-				<div class="slide slide2"></div>
-				<div class="slide slide3"></div>
-				<div class="slide slide4"></div>
+		   </div>
+		   <div class="product-case">
+			<div class="product-case-header">
+			 <img src="images/apple-tv.png" alt="Apple-mini">
+			 <button class="btn-image-size"></button>
+			 <button class="btn-like"></button>
 			</div>
-		</div>
-		<div class="container row">
-		
-			<div class="col-md-3 container-fliter">
-				<div class="checkbox-filter"> 
-					<h3>Device type</h3>
-					<ul>
-						<li>Laptop</li>
-						<li>Tablet</li>
-					</ul>
-					<h3>Color</h3>
-					<ul>
-						<li>Black</li>
-						<li>Red</li>
-						<li>Green</li>
-						<li>Blue</li>
-						<li>Orange</li>
-					</ul>
-					<h3>RAM</h3>
-					<ul>
-						<li>1GB</li>
-						<li>2GB</li>
-						<li>4GB</li>
-						<li>6GB</li>
-						<li>8GB</li>
-					</ul>
-					<a href="#">Show more options ...</a>
-					<p>
-						<button class="btn">submit</button>
-					</p>
-				</div>	
+			<div class="product-case-main">
+			 <h2>#1 Device Name</h2>
+			 <p class="description">Lorem ipsum dolor sit <br> amet, consectetur<br> adipisic elit.</p>
+			 <p><span class="Spec">Type: </span> Laptop</p>
+			 <p><span class="Spec">Screen-size: </span>7 inches</p>
+			 <p><span class="Spec">Ram: </span> 1gb</p>
+			 <p class="productPrice">$599 <sup class="cents">25</sup></p>
+			 <p class="btn-container"><a class="btn-details" href="#"> More details </a></p>
+			 <p class="btn-container"><button class="btn-add-to-cart" type="submit">Add to cart</button></p>
 			</div>
-			<div class="main-container-items">
-				<div class="row">
-					<div class="breadcrumbs">
-						<a href="#">Home page </a>
-						<i>&gt</i>
-						<a href="#">Products </a>
-						<i>&gt</i>
-						<a href="" class="current">Laptops and Tablets</a>
-					</div>
+		   </div> 
+		   <div class="product-case">
+			<div class="product-case-header">
+			 <img src="images/iwatch.png" alt="iWatch">
+			 <button class="btn-image-size"></button>
+			 <button class="btn-like"></button>
+			</div>
+			<div class="product-case-main">
+			 <h2>#1 Device Name</h2>
+			 <p class="description">Lorem ipsum dolor sit <br> amet, consectetur<br> adipisic elit.</p>
+			 <p><span class="Spec">Type: </span> Laptop</p>
+			 <p><span class="Spec">Screen-size: </span>7 inches</p>
+			 <p><span class="Spec">Ram: </span> 1gb</p>
+			 <p class="productPrice">$599 <sup class="cents">25</sup></p>
+			 <p class="btn-container"><a class="btn-details" href="#"> More details </a></p>
+			 <p class="btn-container"><button class="btn-add-to-cart" type="submit">Add to cart</button></p>
+			</div>
+		   </div>
+		  </div>
+		  <div class="row">
+			<div class="product-case first">
+				<div class="product-case-header">
+				<img src="images/iphone.png" alt="iPhone">
+				<button class="btn-image-size"></button>
+				<button class="btn-like"></button>
 				</div>
-					<div class="main-items-info">
-						<div class="row">
-						<div class="main-items-info-part1">
-						<h1>Laptops and Tablets</h1>
-						</div>
-						<div class="main-items-info-part2">
-							<form class="sort-list">
-								<select class="choise">
-								 <option value="sort by price">sort by price</option>
-								 <option value="sort by name">sort by name</option>
-								 <option value="sort by date">sort by date</option>
-								 <option value="sort by popularity">sort by popularity</option>
-								</select>
-							</form>
-						</div>
-						</div>
-				  </div>
+				<div class="product-case-main">
+				<h2>#1 Device Name</h2>
+				<p class="description">Lorem ipsum dolor sit <br> amet, consectetur<br> adipisic elit.</p>
+				<p><span class="Spec">Type: </span> Laptop</p>
+				<p><span class="Spec">Screen-size: </span>7 inches</p>
+				<p><span class="Spec">Ram: </span> 1gb</p>
+				<p class="productPrice">$599 <sup class="cents">25</sup></p>
+				<p class="btn-container"><a class="btn-details" href="#"> More details </a></p>
+				<p class="btn-container"><button class="btn-add-to-cart" type="submit">Add to cart</button></p>
 				</div>
+			</div>
+			<div class="product-case">
+				<div class="product-case-header">
+				<img src="images/ipod.png" alt="iPod">
+				<button class="btn-image-size"></button>
+				<button class="btn-like"></button>
+				</div>
+				<div class="product-case-main">
+				<h2>#1 Device Name</h2>
+				<p class="description">Lorem ipsum dolor sit <br> amet, consectetur<br> adipisic elit.</p>
+				<p><span class="Spec">Type: </span> Laptop</p>
+				<p><span class="Spec">Screen-size: </span>7 inches</p>
+				<p><span class="Spec">Ram: </span> 1gb</p>
+				<p class="productPrice">$599 <sup class="cents">25</sup></p>
+				<p class="btn-container"><a class="btn-details" href="#"> More details </a></p>
+				<p class="btn-container"><button class="btn-add-to-cart" type="submit">Add to cart</button></p>
+				</div>
+			</div> 
+			<div class="product-case">
+				<div class="product-case-header">
+				<img src="images/macbook.png" alt="laptop">
+				<button class="btn-image-size"></button>
+				<button class="btn-like"></button>
+				</div>
+				<div class="product-case-main">
+				<h2>#1 Device Name</h2>
+				<p class="description">Lorem ipsum dolor sit <br> amet, consectetur<br> adipisic elit.</p>
+				<p><span class="Spec">Type: </span> Laptop</p>
+				<p><span class="Spec">Screen-size: </span>7 inches</p>
+				<p><span class="Spec">Ram: </span> 1gb</p>
+				<p class="productPrice">$599 <sup class="cents">25</sup></p>
+				<p class="btn-container"><a class="btn-details" href="#"> More details </a></p>
+				<p class="btn-container"><button class="btn-add-to-cart" type="submit">Add to cart</button></p>
+				</div>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="product-case first">
+				<div class="product-case-header">
+				<img src="images/iwatch.png" alt="iWatch">
+				<button class="btn-image-size"></button>
+				<button class="btn-like"></button>
+				</div>
+				<div class="product-case-main">
+				<h2>#1 Device Name</h2>
+				<p class="description">Lorem ipsum dolor sit <br> amet, consectetur<br> adipisic elit.</p>
+				<p><span class="Spec">Type: </span> Laptop</p>
+				<p><span class="Spec">Screen-size: </span>7 inches</p>
+				<p><span class="Spec">Ram: </span> 1gb</p>
+				<p class="productPrice">$599 <sup class="cents">25</sup></p>
+				<p class="btn-container"><a class="btn-details" href="#"> More details </a></p>
+				<p class="btn-container"><button class="btn-add-to-cart" type="submit">Add to cart</button></p>
+				</div>
+			</div>
+			<div class="product-case">
+				<div class="product-case-header">
+				<img src="images/apple-tv.png" alt="Apple-mini">
+				<button class="btn-image-size"></button>
+				<button class="btn-like"></button>
+				</div>
+				<div class="product-case-main">
+				<h2>#1 Device Name</h2>
+				<p class="description">Lorem ipsum dolor sit <br> amet, consectetur<br> adipisic elit.</p>
+				<p><span class="Spec">Type: </span> Laptop</p>
+				<p><span class="Spec">Screen-size: </span>7 inches</p>
+				<p><span class="Spec">Ram: </span> 1gb</p>
+				<p class="productPrice">$599 <sup class="cents">25</sup></p>
+				<p class="btn-container"><a class="btn-details" href="#"> More details </a></p>
+				<p class="btn-container"><button class="btn-add-to-cart" type="submit">Add to cart</button></p>
+				</div>
+			</div> 
+			<div class="product-case">
+				<div class="product-case-header">
+				<img src="images/ipad.png" alt="iPad">
+				<button class="btn-image-size"></button>
+				<button class="btn-like"></button>
+				</div>
+				<div class="product-case-main">
+				<h2>#1 Device Name</h2>
+				<p class="description">Lorem ipsum dolor sit <br> amet, consectetur<br> adipisic elit.</p>
+				<p><span class="Spec">Type: </span> Laptop</p>
+				<p><span class="Spec">Screen-size: </span>7 inches</p>
+				<p><span class="Spec">Ram: </span> 1gb</p>
+				<p class="productPrice">$599 <sup class="cents">25</sup></p>
+				<p class="btn-container"><a class="btn-details" href="#"> More details </a></p>
+				<p class="btn-container"><button class="btn-add-to-cart" type="submit">Add to cart</button></p>
+				</div>
+			</div>
+		  </div>
+		 </div>
+		</div>
+	   </div> 
+     </div>
+	</div>
 	
-			</div>
-	 		
-	 	</div>
-	</main>
-	<footer class="footer">
-		<div class="container">
-				footer
-		</div>
-	</footer>
+    </div>
+   </main>
+<footer class="footer">
+<div class="container">
+footer
+</div>
+</footer>
 </body>
 </html>
 
 
 
+ 
