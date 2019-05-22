@@ -142,6 +142,7 @@ form .btn {
 	right: 7px;
 	border: none;
 	top: 19%;
+  outline: none;
 }
 form .btn-header {
 	position: absolute;
@@ -251,6 +252,7 @@ form .btn-header {
 }
 .sort-list {
 	margin: 0;
+  
 }
 .sort-list select {
 	border: 1px solid rgb( 255, 255, 255 );
@@ -265,6 +267,7 @@ form .btn-header {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
+  outline: none;
 }
 .sort-list option {
 	color: white;
@@ -272,17 +275,18 @@ form .btn-header {
 	font-weight: 300;
 	padding-left: 20px;
 	display: block;
+  border: 1px solid #fff;
 }
 .sort-list option:checked {
 	display: none;
 }
-.product-list {
-}
+/*.product-list {
+}*/
 .product-case {
 	border: 1px solid rgb(255, 255, 255);
 	width: 270px;
 	height: 653px;
-	margin: 30px 30px 0px 0px;
+	margin: 30px 32px 0px 0px;
 	float: right;
 }
 .product-list .first {
@@ -296,14 +300,20 @@ form .btn-header {
 	background-image: url('images/bgi-product.png');
 }
 .product-case-header img {
-	/* top: 50%;
-	left: 50%; */
 	display: block;
 	margin: auto;
-	padding: 2.5em;
+	padding: 2.4em;
 	vertical-align: middle;
 	line-height:178px; 
-	/* position: absolute; */
+}
+.product-case-header .needToAlign-1 {
+  padding: 2.7em;
+}
+.product-case-header .needToAlign-2 {
+  padding: 3.6em;
+}
+.product-case-header .needToAlign-3 {
+  padding: 2.9em;
 }
 .product-case-header .btn-image-size {
 	position: absolute;
@@ -320,6 +330,7 @@ form .btn-header {
 .btn-image-size:focus {
 	background-image: url('images/big-active.png');
 	background-color: rgb(44, 113, 184);
+  outline: none;
 }
 .product-case-header .btn-like {
 	position: absolute;
@@ -336,6 +347,7 @@ form .btn-header {
 .btn-like:focus {
 	background-image: url('images/like-active.png');
 	background-color: rgb(44, 113, 184);
+  outline: none;
 }
 .product-case-main {
 	background-color: rgba(44, 113, 184, 0.749);
