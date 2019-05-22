@@ -42,7 +42,7 @@
       <div class="col-md-3">
        <div class="row">
         <div class="col-md-10">
-         <form>
+         <form class="header-form">
           <input type="search" placeholder="search">
           <button type="submit" class="btn btn-header"></button>
          </form>
@@ -60,8 +60,8 @@
     </div>
    </header>
    <main class="main">
-    <div class="container">
-     <div class="row">
+    <div class="border-slider">
+     <div class="container row">
       <div class="container-slider">
        <div class="slider">
         <div class="slide slide1"></div>
@@ -70,33 +70,81 @@
         <div class="slide slide4"></div>
        </div>
       </div>
-     </div>
+	 </div>
+	</div>
+	<div class="container">
      <div class="row">
       <div class="col-md-3">
        <div class="checkbox-filter"> 
+		<form>
         <h3>Device type</h3>
         <ul>
-         <li>Laptop</li>
-         <li>Tablet</li>
+		 <li> 
+		  <input type="checkbox" value="Laptop" class="checkbox" id="checkbox-type-1"> 
+		  <label class="labelForCheckbox" for="checkbox-type-1">Laptop</label>  
+		</li>
+         <li>
+		  <input type="checkbox" value="Tablet" class="checkbox" id="checkbox-type-2"> 
+		  <label class="labelForCheckbox" for="checkbox-type-2">Tablet</label> 
+		 </li>
         </ul>
         <h3>Color</h3>
         <ul>
-         <li>Black</li>
-         <li>Red</li>
-         <li>Green</li>
-         <li>Blue</li>
-         <li>Orange</li>
+         <li>
+		  <input type="checkbox" value="Black" class="checkbox" id="checkbox-color-black"> 
+		  <label class="labelForCheckbox" for="checkbox-color-black">Black</label>
+		 </li>
+         <li>
+		  <input type="checkbox" value="Red" class="checkbox" id="checkbox-color-red"> 
+		  <label class="labelForCheckbox" for="checkbox-color-red">Red</label>
+		 </li>
+         <li>
+		  <input type="checkbox" value="Green" class="checkbox" id="checkbox-color-green"> 
+		  <label class="labelForCheckbox" for="checkbox-color-green">Green</label>
+		 </li>
+         <li>
+		  <input type="checkbox" value="Blue" class="checkbox" id="checkbox-color-blue"> 
+		  <label class="labelForCheckbox" for="checkbox-color-blue">Blue</label>
+		 </li>
+         <li>
+		  <input type="checkbox" value="Orange" class="checkbox" id="checkbox-color-orange"> 
+		  <label class="labelForCheckbox" for="checkbox-color-orange">Orange</label>
+		 </li>
         </ul>
         <h3>RAM</h3>
-        <ul>
-         <li>1GB</li>
-         <li>2GB</li>
-         <li>4GB</li>
-         <li>6GB</li>
-         <li>8GB</li>
+        <ul style="padding-bottom: 2px;">
+         <li>
+		  <input type="checkbox" value="1GB" class="checkbox" id="checkbox-ram-1"> 
+		  <label class="labelForCheckbox" for="checkbox-ram-1">1GB</label>
+		 </li>
+		 <li> 
+		  <input type="checkbox" value="2GB" class="checkbox" id="checkbox-ram-2"> 
+		  <label class="labelForCheckbox" for="checkbox-ram-2">2GB</label>
+		</li>
+		 <li>
+		  <input type="checkbox" value="4GB" class="checkbox" id="checkbox-ram-4"> 
+		  <label class="labelForCheckbox" for="checkbox-ram-4">4GB</label>
+		</li>
+		 <li>
+		  <input type="checkbox" value="6GB" class="checkbox" id="checkbox-ram-6"> 
+		  <label class="labelForCheckbox" for="checkbox-ram-6">6GB</label>
+		</li>
+		 <li> 
+		  <input type="checkbox" value="8GB" class="checkbox" id="checkbox-ram-8"> 
+		  <label class="labelForCheckbox" for="checkbox-ram-8">8GB</label>
+		</li>
         </ul>
-        <a href="#">Show more options ...</a>
-        <p><button class="btn">submit</button></p>
+        <p>
+		  <a href="#">
+		   Show more options ...
+		  </a>
+		</p>
+        <p>
+		  <button class="btn btn-details">
+		   Submit
+		  </button>
+		</p>
+		</form>
        </div>	
       </div>
      <div class="col-md-9">
@@ -104,9 +152,9 @@
        <div class="сol-md-12">
 	    <p class="breadcrumbs">
          <a href="#">Home page </a>
-         <i>&gt</i>
+         <i>&gt;</i>
          <a href="#">Products </a>
-         <i>&gt</i>
+         <i>&gt;</i>
          <a class="current-page">Laptops and Tablets</a>
         </p>
        </div>
@@ -293,17 +341,25 @@
 		  </div>
 		 </div>
 		</div>
-	   </div> 
+	   </div>
+	   <div class="row">
+		 <div class="col-md-12">
+		  <div class="main-bottom">
+			  <a class="load-more" href="#">Load more ...</a>
+		  </div> 
+		 </div>  
+	   </div>
      </div>
 	</div>
-	
     </div>
    </main>
-<footer class="footer">
-<div class="container">
-footer
-</div>
-</footer>
+   <footer class="footer">
+    <div class="container">
+     <span class="footer-text">
+	 © Copyright 2017
+     </span>
+    </div>
+   </footer>
 </body>
 </html>
 

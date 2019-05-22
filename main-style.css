@@ -44,7 +44,6 @@ body {
 .header {
 	background-color: rgba(255,255,255,0.75);
 	padding: 25px 0;
-	border-bottom: 2px solid #fff;
 }
 .logo {
 	padding-top: 8px;
@@ -112,14 +111,14 @@ body {
 	right: 13px;
 	font-size: 18px;
 } 
-form {
+.header-form {
 	position: relative;
 	margin-left: 30px;
 	height: 50px;
 	padding: 5px 0;
 	width: 200px;
 }
-form input{
+.header-form input{
 	float: left;
 	display: block;
 	border: 1px solid rgb( 44, 113, 184 );
@@ -133,7 +132,7 @@ form input{
 	font-family: 'Roboto', sans-serif;
 	vertical-align: middle;
 }
-form .btn {
+.header-form .btn {
 	background-color: #2c71b8;
 	width: 30px;
 	height: 29px;
@@ -142,9 +141,9 @@ form .btn {
 	right: 7px;
 	border: none;
 	top: 19%;
-  outline: none;
+	outline: none;
 }
-form .btn-header {
+.header-form .btn-header {
 	position: absolute;
 	background-image: url('images/icon_4.png');
 	background-repeat: no-repeat;
@@ -199,10 +198,11 @@ form .btn-header {
 	height: 20px;
 	width: 20px;
 }
-.main {
-	border-bottom: 2px solid #fff;
+.border-slider {
+	border-top: 1px solid #fff;
+	border-bottom: 	1px solid #fff;
+	width: 100%;
 }
-
 .main .container-slider {
 	height: 398px;
 }
@@ -215,6 +215,63 @@ form .btn-header {
 .checkbox-filter h3, .checkbox-filter li {
 	color: #fff;
 }
+.checkbox-filter .btn {
+	font-size: 21px;
+}
+.checkbox-filter p a {
+	font-size: 21px;
+	font-weight: 300;
+	font-family: "Roboto";
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	display: block;
+}
+.checkbox-filter p {
+	margin-bottom: 17px;
+}
+.checkbox-filter ul {
+	padding: 10px 0px 10px 29px;
+}
+
+.checkbox-filter h3 {
+	padding: 40px 0px 0px 29px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 21px;
+}
+.checkbox-filter h3:first-child {
+	padding-top: 30px;
+}
+.checkbox {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+  }
+  .checkbox + label {
+	position: relative;
+	cursor: pointer;
+	padding-left: 25px;
+	font-weight: 300;
+	line-height: 40px;
+	font-size: 21px;
+  }
+  .checkbox + label:before {
+	content: '';
+	position: absolute;
+	top: 7px;
+	left: 0;
+	width: 8px;
+	height: 8px;
+	background: #2c71b8;
+	border: 1px solid #fff
+}
+
+.checkbox:checked + label:before {
+	background: #fff;
+  }
+
 .breadcrumbs {
 	margin-top: 28px;
 }
@@ -252,7 +309,6 @@ form .btn-header {
 }
 .sort-list {
 	margin: 0;
-  
 }
 .sort-list select {
 	border: 1px solid rgb( 255, 255, 255 );
@@ -386,7 +442,8 @@ form .btn-header {
 	 font-size: 24px;
 	 vertical-align: super;
 }
-.product-case-main .btn-details {
+ /* aloso btn-details for btn in checkbox-filter */
+.btn-details {
 	border: 1px solid #fff;
 	background-color: rgb(44, 113, 184);
 	width: 208px;
@@ -400,7 +457,8 @@ form .btn-header {
 	text-align: center;
 	margin: 0 auto;
   }
-.product-case-main .btn-details:hover {
+/* aloso btn-details for btn  in checkbox-filter */
+.btn-details:hover {
 	background-color:rgba(17, 224, 180, 0.699);
 }
   .product-case-main .btn-add-to-cart {
@@ -425,4 +483,29 @@ form .btn-header {
 .product-case-main .btn-container {
 	padding: 0;
 }
-  
+.main-bottom {
+	height: 117px;
+}
+.main-bottom .load-more {
+text-align: center;
+font-size: 35px;
+line-height: 40px;
+font-weight: 300;
+text-decoration: none;
+color: #fff;
+display: block;
+margin-top: 39px;
+}
+.footer {
+	background-color: rgba(255,255,255,0.75);
+	height: 100px;
+}
+.footer .footer-text {
+	color: #2c71b8;
+	font-size: 21px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	line-height: 100px;
+	text-align: center;	
+}
