@@ -97,9 +97,11 @@ body {
 	font-weight: 300;
 	text-decoration: none;
 	padding: 0 22px 0 29px;
+	
 }
 .submenu-parent:hover .submenu {
 	display: block;
+	z-index: 10;
 }
 .submenu  li:hover, .submenu li:hover a {
 	background-color: #fff;
