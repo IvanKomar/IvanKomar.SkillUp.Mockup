@@ -62,14 +62,40 @@
    <main class="main">
     <div class="border-slider">
      <div class="container row">
-      <div class="container-slider">
        <div class="slider">
-        <div class="slide slide1"></div>
-        <div class="slide slide2"></div>
-        <div class="slide slide3"></div>
-        <div class="slide slide4"></div>
-       </div>
-      </div>
+
+<div class="slider__container">
+<div class="Slides fade">
+<div class="slider__text">Slide #1</div>
+</div>
+
+<div class="Slides fade">
+
+<div class="slider__text">Slide #2</div>
+</div>
+
+<div class="Slides fade">
+
+<div class="slider__text">Slide #3</div>
+</div>
+
+<div class="Slides fade">
+<div class="slider__text">Slide #4</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div class="Slider__dots" >
+<span class="Slider__dots--dot" onclick="currentSlide(1)"></span> 
+<span class="Slider__dots--dot" onclick="currentSlide(2)"></span> 
+<span class="Slider__dots--dot" onclick="currentSlide(3)"></span>
+<span class="Slider__dots--dot" onclick="currentSlide(4)"></span>  
+</div>
+</div>
+
+
+    </div>
 	 </div>
 	</div>
 	<div class="container">
@@ -360,6 +386,7 @@
      </span>
     </div>
    </footer>
+   <script src="JavaScript/slider.js"></script>
 </body>
 </html>
 

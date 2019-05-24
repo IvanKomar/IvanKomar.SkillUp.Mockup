@@ -202,9 +202,52 @@ body {
 	border-top: 1px solid #fff;
 	border-bottom: 	1px solid #fff;
 	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
 }
-.main .container-slider {
+.main .slider {
 	height: 398px;
+	position: relative;
+}
+.slider .slider__container{ 
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+	height: 398px;
+	text-align: center;
+}
+.fade .slider__text {
+ font-size: 100px;
+ color: #fff;
+ font-weight: 100;
+ font-family: 'Roboto', sans-serif;
+ line-height: 360px;
+ text-align: center;
+}
+.slider__container a{
+	position: absolute;
+	color: #fff;
+	width: 26px;
+	height: 49px;
+	font-size: 55px;
+	font-weight: 300;
+	top: 45%;
+	display: block;
+	cursor: pointer;
+}
+.slider__container .next {
+	right: 0;
+}
+.Slider__dots--dot {
+	width: 8px;
+	height: 8px;
+	background-color: #2c71b8;
+	border: 1px solid #fff;
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+}	
+.Slider__dots .active {
+	background-color: #fff;
 }
 .checkbox-filter {
 	border-right: 1px solid rgb(255, 255, 255);
@@ -509,3 +552,5 @@ margin-top: 39px;
 	line-height: 100px;
 	text-align: center;	
 }
+
+
