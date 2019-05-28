@@ -4,7 +4,9 @@
    <meta charset="UTF-8">
    <title>Project-web</title>
    <link rel="stylesheet" href="reset.css">
-   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
    <link rel="stylesheet" type="text/css" href="main-style.css">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,28 +65,12 @@
     <div class="border-slider">
      <div class="container row">
        <div class="slider">
-		<div class="slider__container">
-		 <div class="Slides fade">
-		  <div class="slider__text">Slide #1</div>
-		 </div>
-		 <div class="Slides fade">
-		  <div class="slider__text">Slide #2</div>
-		 </div>
-		 <div class="Slides fade">
-		  <div class="slider__text">Slide #3</div>
-		 </div>
-		 <div class="Slides fade">
-		  <div class="slider__text">Slide #4</div>
-		 </div>
-		 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		 <a class="next" onclick="plusSlides(1)">&#10095;</a>
-		 <div class="Slider__dots" >
-		  <span class="Slider__dots--dot" onclick="currentSlide(1)"></span> 
-		  <span class="Slider__dots--dot" onclick="currentSlide(2)"></span> 
-		  <span class="Slider__dots--dot" onclick="currentSlide(3)"></span>
-		  <span class="Slider__dots--dot" onclick="currentSlide(4)"></span>  
-		 </div>
-		</div>
+				 <div class="slider-block">
+					 <div>Slider# 1 </div>
+					 <div>Slider# 2</div>
+					 <div>Slider# 3</div>
+					 <div>Slider# 4</div>
+				 </div>
        </div>
 	 </div>
 	</div>
@@ -375,8 +361,11 @@
 	 © Copyright 2017
      </span>
     </div>
-   </footer>
-   <script src="JavaScript/slider.js"></script>
+	 </footer>
+	<script  src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script  src="slick/slick.min.js"></script>
+	 <script src="JavaScript/project.js"></script>
 </body>
 </html>
 
