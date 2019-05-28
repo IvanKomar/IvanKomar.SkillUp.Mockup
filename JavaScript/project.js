@@ -19,3 +19,18 @@ $(document).ready(function(){
         autoplaySpeed: 3000
     })
   });
+  //add-to-cart
+  var productsCountEl = document.getElementById('products-count')
+   console.log (productsCountEl)
+
+   var addToCartButtons = document.querySelectorAll('.btn-add-to-cart')
+    console.log (addToCartButtons)
+
+
+  for (var i=0; i< addToCartButtons.length; i++) {
+     addToCartButtons[i].addEventListener('click', function(){
+       var prevProductCount = +productsCountEl.textContent
+       productsCountEl.textContent = prevProductCount + 1
+
+     })
+   }
